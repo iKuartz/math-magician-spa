@@ -17,8 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages-deploy -- 'Deployment of website to Github Pages'",
-    "clean-source": "rimraf README.md src webroot package.json"
+    "deploy": "gh-pages-deploy -- 'Deployment of website to Github Pages'"
   },
   "eslintConfig": {
     "extends": [
