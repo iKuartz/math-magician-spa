@@ -1,0 +1,59 @@
+.container,.calculator,.result,.row,.number,.symbol,.special {
+  display: flex;
+}
+
+.container {
+  justify-content: center;
+  width: 100%;
+  font-size: large;
+  padding: 20px;
+}
+
+.calculator {
+  padding: 20px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.result {
+  height: 30px;
+  background-color: #858694;
+  color: white;
+  padding: 10px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.number,
+.special {
+  background-color: #e0e0e0;
+  height: 30px;
+  border: 1px solid #d1d1d1;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.symbol {
+  background-color: #f5913e;
+  width: 70px;
+  height: 30px;
+  border: 1px solid #d1d1d1;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  width: 70px;
+}
+
+.special {
+  width: 100%;
+}
