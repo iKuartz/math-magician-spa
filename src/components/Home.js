@@ -8,10 +8,10 @@ const Home = () => (
       requires a great amount of imagination.
     </p>
     <p className="textParagraph">
-      As said by Marston Morse: Mathematics are the result of mysterious powers which no one understands,
-      and which the unconscious recognition of beauty must play an important
-      part. Out of an infinity of designs a mathematician chooses one pattern
-      for beauty's sake and pulls it down to earth.
+      As said by Marston Morse: Mathematics are the result of mysterious powers
+      which no one understands, and which the unconscious recognition of beauty
+      must play an important part. Out of an infinity of designs a mathematician
+      chooses one pattern for beauty&apos;s sake and pulls it down to earth.
     </p>
   </div>
 );
