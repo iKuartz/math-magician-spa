@@ -1,5 +1,5 @@
 const Home = () => (
-  <div className="homeDiv">
+  <div className="mainDiv">
     <h1>Welcome to our page!</h1>
     <p className="textParagraph">
       In the words of Sofia Kovalevskaya: many who have had an opportunity of
