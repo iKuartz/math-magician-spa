@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  background-color: red;
+  background-image: url("../imgs/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  padding: 0 5vw;
+}
+
+/* Home page */
+
+.navBar{
+  justify-content: space-between;
+}
+
+.header {
+  text-align: start;
+  font-size: 10vh;
+  margin: 0;
+  width: fit-content;
+}
+
+.ul-links {
+  list-style: none;
+  justify-content: center;
+}
+
+.li-links {
+  font-size: 5vh;
+  font-weight: bold;
+  color: darkblue;
+  padding: 0 20px;
+}
+
+.li-links:first-child {
+  padding-left: 0;
+}
+
+.li-links:last-child {
+  padding-right: 0;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.welcome,
+.textParagraph {
+  color: #ffff;
+  text-align: start;
+  font-size: 35px;
+  background-color: #be3838b9;
+}
+
+.welcome {
+  margin: 15vh 0px 10vh 0px;
+  width: fit-content;
+}
+
+.textParagraph {
+  text-align: start;
+  font-size: larger;
+  margin: 5vh 0px 0px 0px;
+}
+
+/* Quote */
+
+.quoteParagraph {
+  margin: 15vh auto;
+  color: #ffff;
+  text-align: center;
+  font-size: 8vh;
+  background-color: #be3838b9;
+}
+
+/* Calculator */
+.App,
+.container,
+.calculator,
+.result,
+.row,
+.number,
+.symbol,
+.special,
+.navBar,
+.ul-links {
+  display: flex;
+}
+
+.App{
+  margin-top: 10vh;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 8vh;
+}
+
+.container {
+  justify-content: center;
+  width: auto;
+  font-size: large;
+  padding: 20px;
+}
+
+.calculator {
+  padding: 20px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.result {
+  height: 30px;
+  background-color: #858694;
+  color: white;
+  padding: 10px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.number,
+.special {
+  background-color: #e0e0e0;
+  height: 30px;
+  border: 1px solid #d1d1d1;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.symbol {
+  background-color: #f5913e;
+  width: 70px;
+  height: 30px;
+  border: 1px solid #d1d1d1;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  width: 70px;
+}
+
+.special {
+  width: 100%;
+}
