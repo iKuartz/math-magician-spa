@@ -9,9 +9,9 @@
 
 "Math Magicians" is a single page app that displays a calculator allows you to make basic operations. Now the functionalities and the main logic of the app are ready. You can use the calculator by clicking its buttons. The code was completely refactored to work with React functions instead of classes.
 
-## Live Page
+<!-- ## Live Page
 
-[Page Link](https://ikuartz.github.io/math-magicians/math-magicians/public/index.html)
+[Page Link](https://ikuartz.github.io/math-magicians/math-magicians/public/index.html) -->
 ### First requirements:
 
 
