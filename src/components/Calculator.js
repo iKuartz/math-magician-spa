@@ -21,197 +21,198 @@ const Calculator = () => {
   const { total, operation, next } = state;
 
   return (
-    <div className="container">
-      <div className="calculator">
-        <div className="result">
-          {total}
-          {' '}
-          {operation}
-          {' '}
-          {next}
-        </div>
-        <div className="row">
-          <div
-            className="number"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            AC
+    <div className="App">
+      <h2 className="heading">Lets do some Math!</h2>
+      <div className="container">
+        <div className="calculator">
+          <div className="result">
+            {total}
+            {operation}
+            {next}
           </div>
-          <div
-            className="number"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            +/-
-          </div>
-          <div
-            className="number"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            %
-          </div>
-          <div
-            className="symbol"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            ÷
-          </div>
-        </div>
-        <div className="row">
-          <div
-            className="number"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            7
-          </div>
-          <div
-            className="number"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            8
-          </div>
-          <div
-            className="number"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            9
-          </div>
-          <div
-            className="symbol"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            x
-          </div>
-        </div>
-        <div className="row">
-          <div
-            className="number"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            4
-          </div>
-          <div
-            className="number"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            5
-          </div>
-          <div
-            className="number"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            6
-          </div>
-          <div
-            className="symbol"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            -
-          </div>
-        </div>
-        <div className="row">
-          <div
-            className="number"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            1
-          </div>
-          <div
-            className="number"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            2
-          </div>
-          <div
-            className="number"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            3
-          </div>
-          <div
-            className="symbol"
-            onClick={onClick}
-            onKeyDown={() => { }}
-            role="button"
-            tabIndex="0"
-          >
-            +
-          </div>
-        </div>
-        <div className="row">
           <div className="row">
             <div
-              className="special"
+              className="number"
               onClick={onClick}
-              onKeyDown={() => { }}
+              onKeyDown={() => {}}
               role="button"
               tabIndex="0"
             >
-              0
+              AC
+            </div>
+            <div
+              className="number"
+              onClick={onClick}
+              onKeyDown={() => {}}
+              role="button"
+              tabIndex="0"
+            >
+              +/-
+            </div>
+            <div
+              className="number"
+              onClick={onClick}
+              onKeyDown={() => {}}
+              role="button"
+              tabIndex="0"
+            >
+              %
+            </div>
+            <div
+              className="symbol"
+              onClick={onClick}
+              onKeyDown={() => {}}
+              role="button"
+              tabIndex="0"
+            >
+              ÷
             </div>
           </div>
           <div className="row">
             <div
               className="number"
               onClick={onClick}
-              onKeyDown={() => { }}
+              onKeyDown={() => {}}
               role="button"
               tabIndex="0"
             >
-              .
+              7
+            </div>
+            <div
+              className="number"
+              onClick={onClick}
+              onKeyDown={() => {}}
+              role="button"
+              tabIndex="0"
+            >
+              8
+            </div>
+            <div
+              className="number"
+              onClick={onClick}
+              onKeyDown={() => {}}
+              role="button"
+              tabIndex="0"
+            >
+              9
             </div>
             <div
               className="symbol"
               onClick={onClick}
-              onKeyDown={() => { }}
+              onKeyDown={() => {}}
               role="button"
               tabIndex="0"
             >
-              =
+              x
+            </div>
+          </div>
+          <div className="row">
+            <div
+              className="number"
+              onClick={onClick}
+              onKeyDown={() => {}}
+              role="button"
+              tabIndex="0"
+            >
+              4
+            </div>
+            <div
+              className="number"
+              onClick={onClick}
+              onKeyDown={() => {}}
+              role="button"
+              tabIndex="0"
+            >
+              5
+            </div>
+            <div
+              className="number"
+              onClick={onClick}
+              onKeyDown={() => {}}
+              role="button"
+              tabIndex="0"
+            >
+              6
+            </div>
+            <div
+              className="symbol"
+              onClick={onClick}
+              onKeyDown={() => {}}
+              role="button"
+              tabIndex="0"
+            >
+              -
+            </div>
+          </div>
+          <div className="row">
+            <div
+              className="number"
+              onClick={onClick}
+              onKeyDown={() => {}}
+              role="button"
+              tabIndex="0"
+            >
+              1
+            </div>
+            <div
+              className="number"
+              onClick={onClick}
+              onKeyDown={() => {}}
+              role="button"
+              tabIndex="0"
+            >
+              2
+            </div>
+            <div
+              className="number"
+              onClick={onClick}
+              onKeyDown={() => {}}
+              role="button"
+              tabIndex="0"
+            >
+              3
+            </div>
+            <div
+              className="symbol"
+              onClick={onClick}
+              onKeyDown={() => {}}
+              role="button"
+              tabIndex="0"
+            >
+              +
+            </div>
+          </div>
+          <div className="row">
+            <div className="row">
+              <div
+                className="special"
+                onClick={onClick}
+                onKeyDown={() => {}}
+                role="button"
+                tabIndex="0"
+              >
+                0
+              </div>
+            </div>
+            <div className="row">
+              <div
+                className="number"
+                onClick={onClick}
+                onKeyDown={() => {}}
+                role="button"
+                tabIndex="0"
+              >
+                .
+              </div>
+              <div
+                className="symbol"
+                onClick={onClick}
+                onKeyDown={() => {}}
+                role="button"
+                tabIndex="0"
+              >
+                =
+              </div>
             </div>
           </div>
         </div>

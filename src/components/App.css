@@ -12,20 +12,24 @@ body {
 
 /* Home page */
 
+.navBar{
+  justify-content: space-between;
+}
+
 .header {
-  text-align: center;
-  font-size: 20vh;
+  text-align: start;
+  font-size: 10vh;
   margin: 0;
+  width: fit-content;
 }
 
 .ul-links {
   list-style: none;
-  display: flex;
   justify-content: center;
 }
 
 .li-links {
-  font-size: 8vh;
+  font-size: 5vh;
   font-weight: bold;
   color: darkblue;
   padding: 0 20px;
@@ -46,44 +50,57 @@ body {
 .welcome,
 .textParagraph {
   color: #ffff;
-  text-align: center;
+  text-align: start;
   font-size: 10vh;
   background-color: #be3838b9;
 }
 
 .welcome {
-  margin: 0 15vw;
+  margin: 15vh 0px 10vh 0px;
 }
 
 .textParagraph {
   text-align: start;
   font-size: larger;
+  margin: 5vh 0px 0px 0px;
 }
 
 /* Quote */
 
 .quoteParagraph {
-  margin: 0 15vw;
+  margin: 15vh auto;
   color: #ffff;
   text-align: center;
-  font-size: 10vh;
+  font-size: 8vh;
   background-color: #be3838b9;
 }
 
 /* Calculator */
+.App,
 .container,
 .calculator,
 .result,
 .row,
 .number,
 .symbol,
-.special {
+.special,
+.navBar,
+.ul-links {
   display: flex;
+}
+
+.App{
+  margin-top: 10vh;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 8vh;
 }
 
 .container {
   justify-content: center;
-  width: 100%;
+  width: auto;
   font-size: large;
   padding: 20px;
 }
