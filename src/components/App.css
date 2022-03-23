@@ -1,3 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  background-color: red;
+  background-image: url("../imgs/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  padding: 0 5vw;
+}
+
+/* Home page */
+
+.header {
+  text-align: center;
+  font-size: 20vh;
+  margin-bottom: 0px;
+}
+
+.ul-links {
+  list-style: none;
+  display:flex;
+  justify-content: center;
+}
+
+.li-links {
+  font-size: 8vh;
+  font-weight: bold;
+  color: darkblue;
+  padding: 0px 20px;
+}
+
+.li-links:first-child {
+  padding-left: 0px;
+}
+
+.li-links:last-child {
+  padding-right: 0px;
+}
+
+.links{
+  text-decoration: none;
+}
+
+h1{
+  
+}
+
+/* Quote */
+
+.quoteParagraph{
+  margin: 0 15vw;
+  color: #FFFF;
+  text-align: center;
+  font-size: 10vh;
+  background-color:#be3838b9
+}
+
+/* Calculator */
 .container,.calculator,.result,.row,.number,.symbol,.special {
   display: flex;
 }

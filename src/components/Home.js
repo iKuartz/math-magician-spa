@@ -1,6 +1,6 @@
 const Home = () => (
   <div className="mainDiv">
-    <h1>Welcome to our page!</h1>
+    <h2 className="welcome">Welcome to our page!</h2>
     <p className="textParagraph">
       In the words of Sofia Kovalevskaya: many who have had an opportunity of
       knowing any more about mathematics confuse it with arithmetic, and
