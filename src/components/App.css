@@ -51,12 +51,13 @@ body {
 .textParagraph {
   color: #ffff;
   text-align: start;
-  font-size: 10vh;
+  font-size: 35px;
   background-color: #be3838b9;
 }
 
 .welcome {
   margin: 15vh 0px 10vh 0px;
+  width: fit-content;
 }
 
 .textParagraph {
