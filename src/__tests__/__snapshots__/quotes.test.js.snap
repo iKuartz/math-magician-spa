@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking if Quotes page renders correctly 1`] = `
+<div
+  className="quotesDiv"
+>
+  <p
+    className="quoteParagraph"
+  >
+    Logic and mathematics are nothing but specialized linguistic structures. -- Jean Piaget
+  </p>
+</div>
+`;
